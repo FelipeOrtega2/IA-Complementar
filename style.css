@@ -2,13 +2,98 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 body {
     background: #09090b;
     color: #fafafa;
-    padding:100px 20px;
+    padding: 100px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.Subtitulo {
+    color: #a78bfa;
+}
+
+h1 {
+    color: #fafafa;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+span {
+    color: #a78bfa;
+}
+
+.Descrição {
+    color: rgb(92, 92, 92);
+    margin-top: 10px;
+}
+
+.caixa-entrada {
+    width: 620px;
+    border-radius: 10px;
+    background: #18181b;
+    padding: 12px;
+    margin-top: 8px;
+    display: flex;
+}
+
+textarea {
+    width: 80%;
+    resize: none;
+    outline: none;
+    background: transparent;
+    color: #fafafa;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    background: #6247b1;
+    border-radius: 10px;
+    color: #fafafa;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.caixa-saida {
+    width: 1400px;
+    display: flex;
+    margin-top: 38px;
+    padding: 20px;
+    background: #19191b;
+    border-radius: 10px;
+    border: 1px solid #1b1818;
+    gap: 20px;
+}
+
+.codigo {
+    width: 30%;
+    background: #0c0c0f;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #22c55e;
+    white-space: pre-wrap;
+    overflow: auto;
+    height: 600px;
+    border: 1px solid #18181b;
+}
+
+.Site {
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid #1b1818;
+    height: 600px;
+    background: #7a7a7e;
 }
